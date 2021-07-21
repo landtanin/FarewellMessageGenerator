@@ -7,6 +7,27 @@
 </head>
 
 <body>
-  <h1>#(title)</h1>
+    <form method="post">
+      <label for="name">First name:</label><br>
+      <input type="text" id="name" name="name" value="Elon"><br>
+      
+      <label for="previousCompanyName">Company Name:</label><br>
+      <input type="text" id="previousCompanyName" name="previousCompanyName" value="Paypal"><br><br>
+      
+      <label for="positiveAdjective">Positive Adjective:</label><br>
+      <input type="text" id="positiveAdjective" name="positiveAdjective" value="Great"><br><br>
+
+      <label for="yourEmail">Contact Email:</label><br>
+      <input type="text" id="yourEmail" name="yourEmail" value="elonmusk@spacex.com"><br><br>
+
+      <label for="yourLastDay">Your Last Day:</label><br>
+      <input type="text" id="yourLastDay" name="yourLastDay" value="1st October 2020"><br><br>
+
+      <label for="phoneNumber">Phone Number:</label><br>
+      <input type="text" id="phoneNumber" name="phoneNumber" value="07 123 456 789"><br><br>
+      
+      <input type="submit" value="Submit">
+  </form>
+
 </body>
 </html>
